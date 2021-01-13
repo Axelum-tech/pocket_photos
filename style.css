@@ -1,0 +1,156 @@
+
+
+body{
+    background-image:linear-gradient(#5F1C8C,#7EAED9);
+    height: 100%;
+    
+   }
+
+
+   .pal{
+    background-color: #5F1C8C;
+    background-color: #3981BF;
+    background-color: #7EAED9;
+    background-color: #4C591D;
+    background-color: #D9BE36;
+}
+
+html{
+    
+    height:100%;
+}
+.pocket{
+    width: 40%;
+    height: 40%;
+    background-image:
+        linear-gradient(45deg,#D9BE36 48%, transparent 51%) ;
+    box-shadow:-10px 7px 8px 2px #4C591D;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    border-bottom:dashed  2px #4C591D;
+    border-left:dashed  2px #4C591D ;
+}
+
+.pocket img{
+    /* opacity: 0.7; */
+    width:110%;
+    height:100%;
+    position: absolute;
+    border: 30px solid rgb(219, 216, 216) ;
+    bottom: 50px;
+    left: 50px;
+    transform-origin:left bottom ;
+    transition: 2s;
+}
+.pocket #first>img{
+    transform: rotate(-4deg );
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.pocket #second>img{
+    transform: rotate(4deg);
+    position: absolute;
+    z-index: 3;
+}
+.pocket #third>img{
+    position: absolute;
+    z-index: 2;
+}
+
+.pocket .top{
+    width: 50%;
+    height: 50%;
+    background-image:
+        linear-gradient(45deg,#D9BE36 50%, transparent 51%) ;
+    box-shadow:-10px 7px 8px 2px #4C591D;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-bottom:dashed  2px #4C591D;
+    border-left:dashed  2px #4C591D ;
+    z-index: 4;
+
+}
+.pocket .top>.left{
+   font-size: 100px;
+   font-weight: 900;
+   text-decoration: none;
+   display: block;
+   position: absolute;
+   top: 250px;
+   left: 50px;
+}
+.pocket .top>.right{
+    font-size: 100px;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 246px;
+    left: 200px;
+ }
+
+ .first{
+     font-size: 100px;
+     text-decoration:none ;
+     color:#4C591D;
+  
+ }
+ .second{
+    font-size: 100px;
+    text-decoration:none ;
+    color:#4C591D;
+ 
+ }
+ .third{
+    font-size: 100px;
+    text-decoration:none ;
+    color:#4C591D;
+ }
+
+ #first:target img{
+     
+     z-index: 4;
+     width: 150%;
+     height: 150%;
+     transform-origin:left bottom;
+     transform:rotate(0deg);
+     
+
+ }
+
+ #second:target img{
+     
+     z-index: 4;
+     width: 150%;
+     height: 150%;
+     transform-origin:left bottom;
+     transform:rotate(0deg);
+    
+ }
+ #third:target img{
+     
+     z-index: 4;
+     width: 150%;
+     height: 150%;
+    
+     
+     
+ }
+ .numbers{
+     position: absolute; 
+     bottom:15%;
+     left:12%;
+     z-index:5
+}
+
+
+
+
+
+
+
